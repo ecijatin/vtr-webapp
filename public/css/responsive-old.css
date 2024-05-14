@@ -1,0 +1,285 @@
+@media all and (max-width: 1800px) {
+  .grid-box.gen {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .gen h4 {
+    font-size: 1.15rem;
+  }
+
+  .gen h2 {
+    font-size: 1.85rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+  }
+
+  .asmb-box ul {
+    margin: 0.15rem auto;
+  }
+
+  .partyWrap {
+    padding-top: 0.5rem;
+  }
+
+  .parties-list .pr-row {
+    font-size: 0.85rem;
+  }
+}
+
+@media all and (max-width: 1700px) {
+  .grid-box {
+    padding: 4rem 0;
+    font-size: 1.35rem;
+  }
+
+  .page-title h1 {
+    font-size: 1.85rem;
+  }
+
+  .page-title h2,
+  .page-title h3 {
+    font-size: 1.5rem;
+  }
+
+
+  .page-title {
+    margin: 1.5rem auto 2.5rem;
+  }
+
+  .inner-content {
+    margin: 1.5rem auto 2.5rem;
+  }
+
+  .box-content h2 {
+
+    font-size: 1.85rem;
+  }
+
+  .box-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .box-content h4 {
+    font-size: 1rem;
+  }
+
+  .box-content h5 {
+    font-size: 1rem;
+  }
+
+  .box-content h6 {
+    font-size: 0.85rem;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  .round-count {
+    width: 100%;
+  }
+
+  .flex-box {
+    width: 100%;
+    margin: 0 auto 8rem;
+  }
+
+  .asmb-box h2 {
+    font-size: 1.15rem;
+  }
+
+  .asmb-box ul {
+    font-size: 0.85rem;
+  }
+
+  .partyWrap h6 {
+    font-size: 0.65rem;
+  }
+
+  .parties-list .pr-head {
+    font-size: 0.85rem;
+  }
+
+  .detail-btn a {
+    width: 150px;
+    padding: 0.45rem 2.5rem;
+  }
+
+  .parties-list {
+    padding: 0.5rem 0.85rem 1.85rem 0.85rem;
+  }
+
+  .asmb-box .state-title {
+    margin-top: -2.25rem;
+  }
+
+  .map img {
+    max-width: 89%;
+  }
+
+}
+
+@media all and (max-width: 800px) {
+
+  .flex-box .item {
+    width: 92.50%;
+    margin-bottom: 5.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .switch-list ul>li {
+    width: 48px;
+  }
+
+  .round-count ul>li>button {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .logo-search {
+    display: block;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .page-title h1 {
+
+    font-size: 1.25rem;
+  }
+
+  .gen h4 {
+    font-size: 1.85rem;
+  }
+
+  .gen h2 {
+    font-size: 2.85rem;
+    font-weight: 700;
+  }
+
+  .menu-logo {
+    background-color: #a70529;
+    padding: 1rem 0.5rem;
+    display: block;
+  }
+
+  .mob-btn img {
+    max-width: 62%;
+  }
+
+  .lft-menu {
+    position: fixed;
+    width: 65%;
+    background-color: #fff;
+    left: -1500px;
+    top: 0;
+    height: 100vh;
+    z-index: 999;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+
+  .lft-menu::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 100%;
+    top: 0;
+    display: block;
+  }
+
+  .lft-menu ul {
+    display: block;
+  }
+
+  .lft-menu ul>li {
+    margin: 0;
+  }
+
+  .lft-menu ul>li>a {
+    color: #000;
+    padding: 1rem;
+    display: block;
+    font-size: 1.1rem;
+    border-bottom: 1px dashed #d7d7d7;
+  }
+
+  .lft-menu ul>li>a:hover,
+  .lft-menu ul>li>a:hover img,
+  .lft-menu ul>li>a:focus,
+  .lft-menu ul>li>a:focus img {
+    background-color: #78011c;
+    filter: brightness(1) invert(0);
+  }
+
+  .lft-menu ul>li>a img {
+    filter: brightness(1) invert(1);
+  }
+
+  .mob-btn {
+    position: absolute;
+    top: 1.85rem;
+    display: block;
+    cursor: pointer;
+  }
+
+  .mob-btn:hover img {
+    filter: brightness(0.1) invert(1);
+  }
+
+  .menu-close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
+    z-index: 999;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .menu-close:hover {
+    color: #c20d43;
+    text-shadow: 1px 1px 3px #666;
+    background-color: #ffffff;
+  }
+
+  .foot-info {
+    text-align: center;
+  }
+
+  .foot-info ul {
+    margin: 0.5rem auto 0;
+    justify-content: center;
+    border-top: 1px dashed #999;
+    padding-top: 0.5rem;
+  }
+
+  /*jQuery Classes*/
+  .lft-menu.slide-right {
+    left: 0;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .mob-btn {
+    top: 1.5rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .mob-btn {
+    top: 1rem;
+  }
+}

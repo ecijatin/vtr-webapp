@@ -1,0 +1,156 @@
+@media all and (max-width: 1950px) {
+    .logo img {
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 1700px) {
+    .float-btn {
+        right: -4rem;
+    }
+}
+
+@media all and (max-width: 1600px) {}
+
+@media all and (max-width: 1500px) {
+
+
+    .footer {
+        position: relative;
+    }
+
+    .vtn-logo img {
+        max-width: 40%;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .txt-logo {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media all and (max-width: 1400px) {}
+
+@media all and (max-width: 800px) {
+    .filter-wrap select.form-control {
+        margin-bottom: 1rem;
+    }
+
+    .foot-info {
+        text-align: center;
+
+    }
+
+    .d-flex.align-items-center.items-end {
+        justify-content: center;
+        border-top: 1px dashed #f5f5f5;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0;
+    }
+
+
+
+    .parent-btn .btn {
+        padding: 1rem 0.5rem;
+
+        font-size: 0.85rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .logo-search {
+        padding: 0.85rem 0.5rem;
+    }
+
+    .logo-search .logo,
+    .logo-search .txt-logo,
+    .logo-search .vtn-logo {
+        width: 34.5%;
+    }
+
+    .txt-logo {
+        font-size: 1rem;
+    }
+
+    .float-btn {
+        display: none;
+    }
+
+    .filter-wrap {
+        margin: 9rem auto 1.5rem;
+
+    }
+
+    .dis-info {
+        padding: 0.5rem;
+    }
+
+    .text-start,
+    .text-end {
+        text-align: center !important;
+    }
+
+    .inner-content {
+        margin: 1.5rem auto;
+    }
+}
+
+
+
+@media all and (max-width: 600px) {
+
+    .btn-group.parent-btn {
+        display: inline-block;
+    }
+
+    .btn-group.parent-btn a.btn {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 0.25rem;
+    }
+
+    .card-header div:nth-child(1) {
+        text-align: center !important;
+        border-bottom: 1px dashed #d7d7d7;
+        padding: 0.5rem;
+    }
+
+    .card-header div:nth-child(2) {
+        text-align: center !important;
+        border-bottom: 1px dashed #d7d7d7;
+        padding: 0.5rem;
+    }
+
+    /* .card-header div:nth-child(3) {
+        text-align: center !important;
+
+        padding: 0.5rem;
+    } */
+
+    .dis-info {
+        font-size: 11px;
+    }
+
+    .filter-wrap {
+        margin: 10rem auto 1.5rem;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .filter-wrap {
+        margin: 9rem auto 1.5rem;
+    }
+}
+
+
+@media all and (max-width: 415px) {
+    .filter-wrap {
+        margin: 9.5rem auto 1.5rem;
+    }
+}

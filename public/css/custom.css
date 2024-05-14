@@ -1,0 +1,297 @@
+/*Custom CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px;
+  /*background-image: linear-gradient(to bottom, #ffffff, #f8f8fa, #f1f2f5, #e9ecf0, #e0e6eb);*/
+  background-color: #f8f8fa;
+  position: relative;
+
+}
+
+/* .water-mark {
+  background-size: contain;
+} */
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+header.header {
+  background-color: #a70529;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  border-bottom: 3px solid #fff;
+  box-shadow: 0 0 5px #666;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.dis-info {
+  background-color: #e8e692;
+  color: #000000;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
+  margin-top: 0;
+
+  display: block;
+}
+
+.dis-info h6 {
+  font-size: 0.75rem;
+}
+
+.logo img {
+  max-width: 82%;
+}
+
+.vtn-logo img {
+  max-width: 62%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.logo-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.txt-logo {
+  color: #fff;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo-search .logo,
+.logo-search .txt-logo,
+.logo-search .vtn-logo {
+  width: 22.50%;
+}
+
+
+.filter-wrap button {
+  margin-top: 1.5rem;
+}
+
+.lft-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.lft-menu ul>li {
+  margin: 0 0.5rem;
+}
+
+.lft-menu ul>li>a {
+  color: #ffffff;
+  padding: 0 1rem;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.lft-menu ul>li>a:hover,
+.lft-menu ul>li>a:focus {
+  color: #ffd178;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.inner-content {
+  position: relative;
+  width: 100%;
+  margin: 1.5rem auto 5rem;
+}
+
+
+.page-title {
+  text-align: center;
+  margin: 2.5rem auto 1.5rem;
+  position: relative;
+}
+
+.page-title::after {
+
+  position: absolute;
+  content: '';
+  width: 5rem;
+  height: 3px;
+  background-color: #02a560;
+  display: block;
+  left: 0;
+  bottom: -0.85rem;
+  right: 0;
+  margin: auto;
+
+}
+
+.page-title h1 {
+  font-weight: 500;
+  font-size: 1.85rem;
+  margin-bottom: 2.5rem;
+}
+
+.page-title h2 span {
+  color: #0a76ba;
+}
+
+.page-title h3 {
+  color: #fb8301;
+  font-weight: 700;
+}
+
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: block;
+  z-index: 999;
+}
+
+.foot-info {
+  background-color: #a70529;
+  color: #ffffff;
+  padding: 0.85rem 1.5rem;
+}
+
+.sm-text {
+  font-size: 0.75rem;
+}
+
+.foot-info ul {
+  margin-bottom: 0;
+}
+
+.foot-info ul>li {
+  list-style-type: none;
+  margin: 0 0.5rem;
+}
+
+.d-flex.align-items-center.items-end {
+  justify-content: end;
+}
+
+.filter-wrap {
+  margin: 10rem auto 1.5rem;
+  position: relative;
+}
+
+.filter-wrap label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+
+.card.custom-card .card-header {
+
+  background-color: rgb(253, 240, 237);
+  font-weight: 500;
+  font-size: 1.1rem;
+
+}
+
+.btn-outline-danger {
+  font-weight: 600;
+}
+
+
+.btn-outline-primary {
+  color: #414141;
+  border-color: #e8e692
+}
+
+.btn-outline-primary:hover {
+  color: #000;
+  background-color: #e8e692;
+  border-color: #e8e692
+}
+
+.btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 .25rem rgba(232, 231, 146, 0.508)
+}
+
+
+.btn-check:active+.btn-outline-primary,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #000;
+  background-color: #e8e692;
+  border-color: #e8e692;
+}
+
+.btn-check:active+.btn-outline-primary:focus,
+.btn-check:checked+.btn-outline-primary:focus,
+.btn-outline-primary.active:focus,
+.btn-outline-primary.dropdown-toggle.show:focus,
+.btn-outline-primary:active:focus {
+  box-shadow: 0 0 0 .25rem rgba(232, 231, 146, 0.508)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #e8e692;
+  background-color: transparent
+}
+
+.parent-btn .btn {
+  padding: 1rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+  font-size: 1.15rem;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.card-header div:nth-child(2) {
+  text-align: center;
+}
+
+.card-header div:nth-child(3) {
+  text-align: right;
+}
+
+.card.custom-card {
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  font-weight: bold;
+}
+
+.float-btn {
+  position: absolute;
+  right: -5rem;
+  top: -1rem;
+}
+
+
+button.btn.btn-success.float-btn svg {
+  width: 24px;
+}
